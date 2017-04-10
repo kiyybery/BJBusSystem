@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/li_section_title"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_section_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/login_btn_bg">
+
+        <LinearLayout
+            android:id="@+id/ll_section_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="7.5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="7.5dp">
+
+            <TextView
+                android:id="@+id/iv_section_title_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_section_title_title"
+            style="@style/A1_Font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:maxEms="9"
+            android:singleLine="true"
+            android:text="标题"
+            android:textSize="22dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_section_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:paddingBottom="15px"
+            android:paddingLeft="30px"
+            android:paddingRight="40px"
+            android:paddingTop="15px"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_section_title_right"
+                android:layout_width="63px"
+                android:layout_height="63px"
+                android:layout_marginRight="15px" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
